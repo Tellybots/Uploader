@@ -5,9 +5,9 @@ class Translation(object):
     START_TEXT = """
 Hey {}
 
-I am Telegram Most Powerful Url Uploader Bot
+I am Telegram YouTube Uploader Bot
 
-I can Upload Any Link in File or Video except Drm Protected Links
+I can Upload YouTube Link in Video
 
 Use Help Button to Know How to Use me
 
@@ -29,7 +29,7 @@ Show Thumbnail
 Made With 💕 By @Tellybots
 """
     ABOUT_TEXT = """
- **🤖 Bot :** Url Uploader\n
+ **🤖 Bot :** Utube Uploader\n
  **👲 Developer :** [Tellybots](https://telegram.me/tellybots)\n
  **👥 Channel :** [Tellybots](https://telegram.me/tellybots)\n
  **❄️ Credits :** Everyone in this journey\n
