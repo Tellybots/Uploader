@@ -22,7 +22,7 @@ from pyrogram.errors import UserNotParticipant
 from .functions.ran_text import random_char
 from .functions.forcesub import handle_force_subscribe
 
-@Client.on_message(filters.private & filters.regex(pattern=".*https.*"))
+@Client.on_message(filters.private & filters.regex(pattern=".*youtube.*"))
 async def echo(bot, update):
     await add_user_to_database(bot, update)
     logger.info(update.from_user)
