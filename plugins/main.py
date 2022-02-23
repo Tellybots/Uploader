@@ -26,6 +26,8 @@ Deleting Thumbnail
 Show Thumbnail
 ➠ Send /showthumb to view custom thumbnail.
 
+Playlist Not Supported Yet
+
 Made With 💕 By @Tellybots
 """
     ABOUT_TEXT = """
