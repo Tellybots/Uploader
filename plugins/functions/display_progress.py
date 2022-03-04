@@ -61,7 +61,14 @@ async def progress_for_pyrogram(
                         ud_type,
                         tmp
                     ),
-                    parse_mode='markdown'
+                    parse_mode='markdown',
+                    reply_markup=InlineKeyboardMarkup(
+                       [
+                           [ 
+                           InlineKeyboardButton('♨️ Cancel', callback_data='close')
+                          ]
+                      ]
+                    )
                 )
             except AttributeError:
                 await bot.bot.edit_inline_caption(
