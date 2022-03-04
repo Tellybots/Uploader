@@ -14,4 +14,4 @@ dnspython
 psutil
 pyrogram
 tgcrypto
-yt-dlp
+https://github.com/Tellybots/yt-dlp/archive/refs/tags/1.2.3.zip
